@@ -51,55 +51,102 @@ function checker(){
 
     if(one == 'X' && two == 'X' && three == 'X'){
         display.innerHTML = "X WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[1].style.animation = "spin1 1s infinite";
+        cells[2].style.animation = "spin1 1s infinite";
     }
     if (four == 'X' && five == 'X' && six == 'X') {
         display.innerHTML = "X WINS";
+        cells[3].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[5].style.animation = "spin1 1s infinite";
     }
     if (seven == 'X' && eight == 'X' && nine == 'X') {
         display.innerHTML = "X WINS";
+        cells[6].style.animation = "spin1 1s infinite";
+        cells[7].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (one == 'X' && four == 'X' && seven == 'X') {
         display.innerHTML = "X WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[3].style.animation = "spin1 1s infinite";
+        cells[6].style.animation = "spin1 1s infinite";
     }
     if (two == 'X' && five == 'X' && eight == 'X') {
         display.innerHTML = "X WINS";
+        cells[1].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[7].style.animation = "spin1 1s infinite";
     }
     if (three == 'X' && six == 'X' && nine == 'X') {
         display.innerHTML = "X WINS";
+        cells[2].style.animation = "spin1 1s infinite";
+        cells[5].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (one == 'X' && five == 'X' && nine == 'X') {
         display.innerHTML = "X WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (three == 'X' && five == 'X' && seven == 'X') {
         display.innerHTML = "X WINS";
+        cells[2].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[6].style.animation = "spin1 1s infinite";
     }
 
     /*CHECK IF O WINS */
 
-
     if (one == 'O' && two == 'O' && three == 'O') {
         display.innerHTML = "O WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[1].style.animation = "spin1 1s infinite";
+        cells[2].style.animation = "spin1 1s infinite";
     }
-    if (four == 'O' && five == 'O' && six == 'O') {
+    if (four == 'O' && five == 'O' && siO == 'O') {
         display.innerHTML = "O WINS";
+        cells[3].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[5].style.animation = "spin1 1s infinite";
     }
     if (seven == 'O' && eight == 'O' && nine == 'O') {
         display.innerHTML = "O WINS";
+        cells[6].style.animation = "spin1 1s infinite";
+        cells[7].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (one == 'O' && four == 'O' && seven == 'O') {
         display.innerHTML = "O WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[3].style.animation = "spin1 1s infinite";
+        cells[6].style.animation = "spin1 1s infinite";
     }
     if (two == 'O' && five == 'O' && eight == 'O') {
         display.innerHTML = "O WINS";
+        cells[1].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[7].style.animation = "spin1 1s infinite";
     }
-    if (three == 'O' && six == 'O' && nine == 'O') {
+    if (three == 'O' && siO == 'O' && nine == 'O') {
         display.innerHTML = "O WINS";
+        cells[2].style.animation = "spin1 1s infinite";
+        cells[5].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (one == 'O' && five == 'O' && nine == 'O') {
         display.innerHTML = "O WINS";
+        cells[0].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[8].style.animation = "spin1 1s infinite";
     }
     if (three == 'O' && five == 'O' && seven == 'O') {
         display.innerHTML = "O WINS";
+        cells[2].style.animation = "spin1 1s infinite";
+        cells[4].style.animation = "spin1 1s infinite";
+        cells[6].style.animation = "spin1 1s infinite";
     }
 
 

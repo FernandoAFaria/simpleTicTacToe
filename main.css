@@ -45,6 +45,13 @@ from{
 to{transform: rotate(2deg);}
 
 }
+@keyframes spin1{
+from{
+    transform: rotate(deg);
+}
+to{transform: rotate(360deg);}
+
+}
 
 @keyframes blink {
     from{
